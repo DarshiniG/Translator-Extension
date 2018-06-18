@@ -2,7 +2,7 @@
 
 #gdx-bubble-main,
 #gdx-arrow-container {
-  background-color: #ffd;
+  background-color: #cccccc;
   z-index: 99997
 }
 
@@ -25,7 +25,7 @@ a:hover {
 
 #gdx-bubble-main {
   border: 1px solid #999;
-  border-radius: 4px;
+  border-radius: 5px;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
   color: #222;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
