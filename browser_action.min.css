@@ -1,14 +1,16 @@
 
 
 body {
-  line-height: 1.3;
-  margin: 9px;
-  width: 400px
+  line-height: 1.5;
+  margin: 10px;
+  width: 500px;
+  background-color:#d2ffb0;
 }
 
 #form {
-  height: 26px;
-  margin-bottom: 9px
+  height: 30px;
+  margin-bottom: 9px;
+
 }
 
 #query-field {
@@ -25,28 +27,33 @@ body {
 
 #query-field:focus {
   outline: 0;
-  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.15)
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.15);
+  background-color:#fffdd0;
+  
 }
 
 #define-btn {
   height: 100%;
-  margin-left: 9px;
+  margin-left: 10px;
   padding: 1px 20px;
-  vertical-align: top
+  vertical-align: top;
+  background-color:#ff7d00;
+  border-color:black;
 }
 
 #usage-tip,
 #status-box {
-  margin: 13px 0
+  margin: 12px 0
 }
 
 #meaning {
-  margin: 9px 0
+  margin: 10px 0;
+  color:#423330;
 }
 
 #usage-tip {
-  color: #888;
-  font-style: italic
+  color: #634c4c;
+  font-style: bold;
 }
 
 #status-search-link {
@@ -54,7 +61,7 @@ body {
 }
 
 #meaning {
-  border: 1px solid #ccc;
+  border: 1px solid #423330;
   max-height: 300px;
   overflow-x: hidden;
   overflow-y: visible;
@@ -63,29 +70,29 @@ body {
 }
 
 .footer {
-  color: #888;
-  font-size: 12px;
-  margin-top: 9px;
+  color: #634c4c;
+  font-size: 11px;
+  margin-top: 10px;
   text-align: center
 }
 
 .entry {
-  margin-bottom: 16px
+  margin-bottom: 15px
 }
 
 .headword-box {
-  margin-bottom: 6px
+  margin-bottom: 7px
 }
 
 .headword-box span {
   display: inline-block;
-  height: 20px;
+  height: 25px;
   line-height: 20px;
   vertical-align: top
 }
 
 .headword {
-  font-size: 16px;
+  font-size: 17px;
   font-weight: bold
 }
 
