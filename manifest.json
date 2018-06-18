@@ -1,0 +1,31 @@
+{
+  "background": {
+    "page": "background.html"
+    , "persistent": false
+  }
+  , "browser_action": {
+    "default_icon": "static/bookicon1919.png"
+    , "default_popup": "browser_action.html"
+    , "default_title": "Translator"
+  }
+  , "content_scripts": [{
+    "all_frames": true
+    , "js": ["content.min.js"]
+    , "matches": ["<all_urls>"]
+   }]
+  , "content_security_policy": "script-src 'self' https://ssl.google-analytics.com https://clients5.google.com https://apis.google.com https://cdnjs.cloudflare.com; object-src 'self'"
+  , "description": "View definitions easily as you browse the web."
+  , "icons": {
+    "128": "static/bookicon128128.png"
+    , "16": "static/bookicon1616.png"
+    , "32": "static/bookicon3232.png"
+    , "48": "static/bookicon4848.png"
+  }
+  , "manifest_version": 2
+  , "name": "Translator"
+  , "options_page": "options.html"
+  , "permissions": ["storage", "tabs"]
+  , "update_url": "https://clients2.google.com/service/update2/crx"
+  , "version": "4.0.5"
+  , "web_accessible_resources": ["content.min.css"]
+  }
